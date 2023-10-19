@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AddProduct from './addProduct';
-import SignUp from './signUpUser';
+import SignUpUser from './signUpUser';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
     <AddProduct/>
-    <SignUp/>
+    <SignUpUser/>
   </React.StrictMode>
 );
 
